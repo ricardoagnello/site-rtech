@@ -1,4 +1,5 @@
-{
+[
+  {
     "@context": "https://schema.org",
     "@type": "WebSite",
     "name": "RTech Web Solutions",
@@ -6,8 +7,24 @@
     "description": "Conectando seu negócio ao mundo digital.",
     "potentialAction": {
       "@type": "SearchAction",
-      "target": "https://www.rtechwebsolutions.com/search?q={search_term_string}",
+      "target": "https://www.rtechwebsolutions.com.br/search?q={search_term_string}",
       "query-input": "required name=search_term_string"
+    },
+    "sameAs": [
+      "https://www.instagram.com/seuinstagram",
+      "https://wa.me/5511958079353"
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "RTech Web Solutions",
+    "url": "https://www.rtechwebsolutions.com.br",
+    "description": "Na Rtech Web Solutions, oferecemos soluções digitais completas para impulsionar o sucesso do seu negócio online.",
+    "foundingDate": "2025-02-12",
+    "founder": {
+      "@type": "Person",
+      "name": "Ricardo Agnello Neto"
     },
     "contactPoint": {
       "@type": "ContactPoint",
@@ -20,12 +37,13 @@
     "sameAs": [
       "https://www.instagram.com/seuinstagram",
       "https://wa.me/5511958079353"
-    ],
-    "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": "https://www.rtechwebsolutions.com.br"
-    },
-    "service": [
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Serviços da RTech Web Solutions",
+    "itemListElement": [
       {
         "@type": "Service",
         "name": "Desenvolvimento de Sites Responsivos",
@@ -41,47 +59,12 @@
         "name": "Otimização de SEO",
         "description": "Aumente sua visibilidade nos mecanismos de busca com nossas estratégias de SEO. Melhore o tráfego orgânico e fique entre os primeiros resultados do Google."
       }
-    ],
-    "about": {
-      "@type": "Organization",
-      "name": "RTech Web Solutions",
-      "description": "Na Rtech Web Solutions, oferecemos soluções digitais completas para impulsionar o sucesso do seu negócio online.",
-      "founder": {
-        "@type": "Person",
-        "name": "Ricardo Agnello Neto"
-      },
-      "foundingDate": "2025-02-12",
-      "values": [
-        "Compromisso com a Qualidade",
-        "Inovação e Criatividade",
-        "Foco no Cliente",
-        "Resultados Mensuráveis"
-      ]
-    },
-    "projects": [
-      {
-        "@type": "CreativeWork",
-        "name": "FWN Engrenagens",
-        "description": "Site institucional para uma empresa especializada em engrenagens e peças industriais.",
-        "url": "http://www.fwnengrenagens.com.br",
-        "technologiesUsed": ["HTML", "CSS", "Bootstrap", "JavaScript"]
-      },
-      {
-        "@type": "CreativeWork",
-        "name": "Nis Contabilidade",
-        "description": "Site institucional para uma empresa de contabilidade, com foco em credibilidade e profissionalismo.",
-        "url": "http://www.niscontabilidade.com.br",
-        "technologiesUsed": ["HTML", "CSS", "Bootstrap", "JavaScript"]
-      },
-      {
-        "@type": "CreativeWork",
-        "name": "Espaço Família",
-        "description": "Site institucional para um projeto voltado ao bem-estar e saúde familiar.",
-        "url": "https://espaco-familia.onrender.com",
-        "technologiesUsed": ["HTML", "CSS", "Bootstrap", "JavaScript"]
-      }
-    ],
-    "faq": [
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
       {
         "@type": "Question",
         "name": "Por que só ter um site não garante boas posições no Google?",
@@ -124,3 +107,4 @@
       }
     ]
   }
+]
