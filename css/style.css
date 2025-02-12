@@ -345,6 +345,17 @@ footer p{
 .btn-primary:focus {
   outline: 2px solid #0056b3;
 }
+
+.card-title {
+  font-size: 1.25rem; /* Tamanho adequado para leitura */
+}
+.card-text {
+  font-size: 1rem;
+}
+.card-icon img {
+  display: block;
+  margin: auto;
+}
   
 
  
