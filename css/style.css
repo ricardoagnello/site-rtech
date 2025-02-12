@@ -356,6 +356,73 @@ footer p{
   display: block;
   margin: auto;
 }
+
+/* Estilo do Banner de Cookies */
+.cookie-banner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--tertiary-color);
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.cookie-banner p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.cookie-banner a {
+  color: #4caf50;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.cookie-buttons {
+  display: flex;
+  gap: 10px;
+  margin-left: 15px;
+}
+
+.cookie-banner button {
+  padding: 8px 16px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.cookie-banner button.btn-primary {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.cookie-banner button.btn-secondary {
+  background-color: #f44336;
+  color: #fff;
+}
+
+/* Estilo do Modal */
+.modal-content {
+  background-color: #fff;
+  color: var(--tertiary-color);
+  border-radius: 8px;
+}
+
+.modal-header {
+  border-bottom: 1px solid #ddd;
+}
+
+.modal-footer {
+  border-top: 1px solid #ddd;
+}
   
 
  
