@@ -68,7 +68,7 @@ body {
   .hero {
     width: 100%;
     height: 100vh;
-    background-image: url('../img/9019808.jpg');
+    background-image: url('../img/imagem-banner-principal.webp');
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
@@ -336,6 +336,14 @@ footer {
 footer p{
   font-size: 0.8rem;
 }
+}
+
+.form-control:focus {
+  outline: 2px solid #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+.btn-primary:focus {
+  outline: 2px solid #0056b3;
 }
   
 

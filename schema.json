@@ -1,0 +1,126 @@
+{
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "RTech Web Solutions",
+    "url": "https://www.rtechwebsolutions.com.br",
+    "description": "Conectando seu negócio ao mundo digital.",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://www.rtechwebsolutions.com/search?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+55-11-95807-9353",
+      "contactType": "customer service",
+      "email": "contato@rtechwebsolutions.com.br",
+      "areaServed": "BR",
+      "availableLanguage": "Portuguese"
+    },
+    "sameAs": [
+      "https://www.instagram.com/seuinstagram",
+      "https://wa.me/5511958079353"
+    ],
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://www.rtechwebsolutions.com.br"
+    },
+    "service": [
+      {
+        "@type": "Service",
+        "name": "Desenvolvimento de Sites Responsivos",
+        "description": "Criamos sites modernos e adaptáveis para qualquer dispositivo, garantindo a melhor experiência de navegação para seus clientes, seja em smartphones, tablets ou desktops."
+      },
+      {
+        "@type": "Service",
+        "name": "Hospedagem Rápida e Segura",
+        "description": "Oferecemos soluções de hospedagem confiáveis e seguras, com alta velocidade de carregamento e suporte técnico especializado, para que seu site esteja sempre disponível."
+      },
+      {
+        "@type": "Service",
+        "name": "Otimização de SEO",
+        "description": "Aumente sua visibilidade nos mecanismos de busca com nossas estratégias de SEO. Melhore o tráfego orgânico e fique entre os primeiros resultados do Google."
+      }
+    ],
+    "about": {
+      "@type": "Organization",
+      "name": "RTech Web Solutions",
+      "description": "Na Rtech Web Solutions, oferecemos soluções digitais completas para impulsionar o sucesso do seu negócio online.",
+      "founder": {
+        "@type": "Person",
+        "name": "Ricardo Agnello Neto"
+      },
+      "foundingDate": "2025-02-12",
+      "values": [
+        "Compromisso com a Qualidade",
+        "Inovação e Criatividade",
+        "Foco no Cliente",
+        "Resultados Mensuráveis"
+      ]
+    },
+    "projects": [
+      {
+        "@type": "CreativeWork",
+        "name": "FWN Engrenagens",
+        "description": "Site institucional para uma empresa especializada em engrenagens e peças industriais.",
+        "url": "http://www.fwnengrenagens.com.br",
+        "technologiesUsed": ["HTML", "CSS", "Bootstrap", "JavaScript"]
+      },
+      {
+        "@type": "CreativeWork",
+        "name": "Nis Contabilidade",
+        "description": "Site institucional para uma empresa de contabilidade, com foco em credibilidade e profissionalismo.",
+        "url": "http://www.niscontabilidade.com.br",
+        "technologiesUsed": ["HTML", "CSS", "Bootstrap", "JavaScript"]
+      },
+      {
+        "@type": "CreativeWork",
+        "name": "Espaço Família",
+        "description": "Site institucional para um projeto voltado ao bem-estar e saúde familiar.",
+        "url": "https://espaco-familia.onrender.com",
+        "technologiesUsed": ["HTML", "CSS", "Bootstrap", "JavaScript"]
+      }
+    ],
+    "faq": [
+      {
+        "@type": "Question",
+        "name": "Por que só ter um site não garante boas posições no Google?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ter um site é apenas o primeiro passo. O Google utiliza algoritmos complexos para classificar os sites nos resultados de busca. Para aparecer nas primeiras posições, seu site precisa ser otimizado para SEO (Search Engine Optimization). Isso inclui técnicas como uso de palavras-chave, conteúdo de qualidade, velocidade de carregamento, mobile-friendliness, backlinks de qualidade e muito mais. Sem essas otimizações, seu site pode ficar perdido nas páginas de resultados."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "O que é SEO e por que é importante?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "SEO (Search Engine Optimization) é o conjunto de técnicas usadas para melhorar a visibilidade de um site nos mecanismos de busca, como o Google. Um bom SEO ajuda seu site a aparecer nas primeiras posições para termos relevantes ao seu negócio, aumentando o tráfego orgânico e as chances de conversão. Sem SEO, seu site pode não ser encontrado por potenciais clientes."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Quanto tempo leva para ver resultados com SEO?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "O SEO é um processo contínuo e os resultados podem variar dependendo da competitividade do mercado e das palavras-chave escolhidas. Geralmente, leva de 3 a 6 meses para começar a ver melhorias significativas nas posições do Google. No entanto, os benefícios a longo valem o investimento, pois o tráfego orgânico tende a ser mais sustentável e de maior qualidade."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Posso fazer SEO sozinho ou preciso de um profissional?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Embora existam muitas ferramentas e recursos disponíveis para aprender SEO, a otimização de sites é uma área complexa e em constante evolução. Um profissional de SEO tem o conhecimento e a experiência necessários para implementar estratégias eficazes e acompanhar as mudanças nos algoritmos do Google. Contratar um especialista pode economizar tempo e garantir melhores resultados."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Além do SEO, o que mais posso fazer para melhorar a visibilidade do meu site?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Além do SEO, você pode investir em outras estratégias de marketing digital, como: Anúncios pagos (Google Ads), Marketing de Conteúdo, Redes Sociais e Email Marketing."
+        }
+      }
+    ]
+  }
