@@ -49,4 +49,45 @@ function checkCookieConsent() {
       const modal = new bootstrap.Modal(document.getElementById('cookie-modal'));
       modal.show();
     });
+
   }
+
+  document.addEventListener("DOMContentLoaded", function () {
+    // Garante que o evento só será vinculado após a página carregar
+    document.getElementById("meuForm").addEventListener("submit", async function (event) {
+        event.preventDefault(); // Evita o recarregamento da página
+
+        // Captura os valores dos campos
+        const nome = document.getElementById("nome").value.trim();
+        const email = document.getElementById("email").value.trim();
+        const mensagem = document.getElementById("mensagem").value.trim();
+
+        // Validação básica (evita envio de campos vazios)
+        if (!nome || !email || !mensagem) {
+            alert("Por favor, preencha todos os campos.");
+            return;
+        }
+
+        // Monta o objeto com os dados
+        const dados = { nome, email, mensagem };
+
+        try {
+            const resposta = await fetch("https://email-redirect.onrender.com/email", { // Altere para o seu endpoint
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify(dados)
+            });
+
+            if (resposta.ok) {
+                alert("Mensagem enviada com sucesso!");
+                document.getElementById("meuForm").reset(); // Limpa o formulário
+            } else {
+                const erro = await resposta.json();
+                alert(`Erro ao enviar mensagem: ${erro.message || "Tente novamente."}`);
+            }
+        } catch (erro) {
+            alert("Erro de conexão. Verifique sua internet ou o servidor.");
+            console.error("Erro:", erro); // Exibe o erro no console
+        }
+    });
+});
